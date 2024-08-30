@@ -1,197 +1,191 @@
-@media (max-width: 1250px) {
-    .header_section::before {
-        width: 75%;
-    }
-
-    .header_section {
-        clip-path: polygon(50% 0%, 100% 0, 100% 100%, 22% 100%, 20% 86%, 0 84%, 0 0);
-
-    }
-
-}
-
 @media (max-width: 1120px) {}
 
 @media (max-width: 992px) {
-    .hero_area {
-        height: auto;
-    }
+  .hero_area {
+    height: auto;
+  }
 
-    .hero_area::before {
+  #navbarSupportedContent {
+    opacity: 1;
+    transform: none;
+    margin-top: 15px;
+  }
 
-        background: linear-gradient(to bottom, transparent, #63f74f);
 
-    }
+  .navbar-toggler {
+    padding: 0.25rem 0;
+  }
 
-    .navbar-brand.brand_mobile {
-        display: flex;
-    }
 
-    .navbar-brand.brand_desktop {
-        display: none;
-    }
+  .header_section .user_option {
+    display: none;
+  }
 
-    .header_section .main_nav {
-        flex: 1;
-    }
+  .custom_menu-btn {
+    display: none;
+  }
 
-    #navbarSupportedContent {
-        margin-top: 15px;
-    }
+  .navbar-nav {
+    align-items: center;
+  }
 
-    .header_section {
-        padding: 10px 0;
-        clip-path: none;
-    }
+  .custom_nav-container .navbar-toggler {
+    margin-left: auto;
+  }
 
-    .header_section::before,
-    .main_nav .top_nav {
-        display: none;
-    }
+  .custom_nav-container {
+    padding: 15px 0;
+    height: auto;
+  }
 
-    .slider_section {
-        padding: 45px 0;
-    }
+  .slider_section {
+    padding-top: 45px;
+    padding-bottom: 120px;
+  }
 
-    .slider_section .slider_heading {
-        top: 75px;
-    }
+  .info_section .info_contact .link-box .img-box {
+    margin-right: 8px;
+  }
 
-    .slider_section .slider_heading h2 {
-        font-size: 7rem;
-    }
-
-    .class_section .owl-carousel .owl-nav {
-
-        flex-direction: row;
-        top: initial;
-        bottom: -45px;
-        right: 50%;
-        transform: translateX(50%);
-
-    }
-
-    .class_section .owl-carousel .owl-nav .owl-prev,
-    .class_section .owl-carousel .owl-nav .owl-next {
-        margin: 2px 5px;
-    }
-
-    .class_section .class_container {
-        margin-bottom: 75px;
-    }
-
-    .sub_page .class_section .owl-carousel .owl-nav {
-        top: initial;
-        bottom: 65px;
-    }
 }
 
 @media (max-width: 767px) {
-    .slider_section #carouselExampleIndicators {
-        align-items: center;
-    }
+  .hero_area {
+    background: none;
+    background-color: #1a2e35;
+    /* background: linear-gradient(to bottom, #1a2e35 40%, #1cbbb4 40%); */
+  }
 
-    .slider_section #carouselExampleIndicators .box {
-        justify-content: center;
-    }
+  .slider_section {
+    text-align: center;
+    padding-bottom: 0;
+  }
 
-    .slider_section .slider_heading {
-        left: 0;
-        opacity: .4;
-    }
+  .slider_section .detail-box {
+    margin-bottom: 75px;
+  }
+
+  .slider_section .detail-box .btn-box {
+    justify-content: center;
+  }
 
 
+  .img-container {
+    padding: 0;
+  }
 
-    .about_section .about_container {
-        background-size: auto;
-    }
+  .slider_section .img-container .img-box {
 
-    .class_section .class_box-container .box .img-box .detail-box button {
-        width: 45px;
-        height: 45px;
+    padding: 45px 0;
+    background-color: #1cbbb4;
+  }
 
-    }
+  .experience_section .img-box {
 
-    .class_section .class_box-container .box .img-box .detail-box button img {
-        width: 15px;
-        margin-left: 3px;
-    }
+    margin-bottom: 45px;
 
-    .blog_section .box .detail-box {
-        margin-left: 25px;
-    }
+  }
 
-    .blog_section .box.b2 .detail-box {
+  .category_section .category_container .box {
+    flex-basis: 34%;
+  }
 
-        padding-left: 0;
-        padding-right: 25px;
+  .client_section .detail-box {
+    margin: 25px;
+    padding: 45px 25px 35px 25px;
+  }
 
-    }
+  .client_section .carousel-control-prev,
+  .client_section .carousel-control-next {
+    top: 92%;
+  }
 
-    .blog_section .box.b2 .detail-box .img_date {
-        left: 0;
-    }
+  .info_section .info_top {
 
-    .info_section .info_main-row {
-        flex-direction: column-reverse;
-    }
+    flex-direction: column;
 
-    .info_section .contact_section {
-        margin-top: 45px;
-    }
+  }
 
-    .info_section .contact_section form {
-        padding-right: 20px;
-    }
+  .info_section .info_top .social_box {
+    margin-top: 35px;
+  }
 
-    .footer_section .social_box {
-        justify-content: center;
-    }
+  .info_section .row>div {
 
-    .footer_section .social_box a {
-        margin: 0 10px;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
 
-    .footer_section p {
-        text-align: center;
-    }
+  }
+
+  .info_section .info_contact .link-box {
+    margin: 0;
+  }
+
+
 
 }
 
 @media (max-width: 576px) {
-    .slider_section .slider_heading {
-        left: -70px;
-    }
+  .category_section .category_container {
+    justify-content: center;
+  }
 
-    .about_section .about_container {
-
-        padding: 45px 15px 45px 25px;
-    }
-
-    .client_section .box {
-        margin: 0;
-    }
+  .category_section .category_container .box {
+    flex-basis: 52%;
+  }
 }
 
 @media (max-width: 480px) {}
 
-@media (max-width: 400px) {
-    .slider_section .slider_heading {
-        left: -125px;
-        opacity: .2;
-    }
+@media (max-width: 420px) {
+  .client_section .detail-box {
+    margin: 25px 5px;
+    box-shadow: 0px 0px 2px 0 rgba(0, 0, 0, 0.2);
+  }
 
-    .slider_section .carousel-control-prev,
-    .slider_section .carousel-control-next {
-        display: none;
-    }
+  .slider_section .carousel_btn-container {
+
+    width: 100px;
+  }
+
+  .slider_section .carousel_btn-container .carousel-control-prev,
+  .slider_section .carousel_btn-container .carousel-control-next {
+    width: 45px;
+    height: 45px;
+    background-size: 12px;
+  }
+
+  .slider_section ol.carousel-indicators {
+    right: 0;
+  }
+
+  .client_section .carousel-control-prev,
+  .client_section .carousel-control-next {
+
+    top: 95%;
+
+  }
+
+
+  .client_section .carousel-control-prev,
+  .client_section .carousel-control-next {
+    width: 50px;
+    height: 50px;
+    background-size: 8px;
+  }
+
+  .freelance_section .tab_container .t-link-box .detail-box h3 {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 360px) {}
 
 @media (min-width: 1200px) {
-    .container {
-        max-width: 1170px;
-    }
-
+  .container {
+    max-width: 1170px;
+  }
 }
